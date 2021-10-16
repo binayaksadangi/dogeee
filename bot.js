@@ -10,4 +10,3 @@ client.login(process.env.BOTTOKEN)
 
 const commandHandler = require('./commands')
 client.on('message', commandHandler);
-
